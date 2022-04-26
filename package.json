@@ -1,0 +1,21 @@
+{
+  "name": "2.5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "back.ts",
+  "scripts": {
+    "start": "tsc backDB.ts && node backDB.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cookie": "^0.4.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.4.1",
+    "vue": "^3.2.31"
+  }
+}
